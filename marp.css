@@ -1,0 +1,9 @@
+/* @theme mytheme */
+
+@import "default";
+
+/* https://marpit.marp.app/theme-css?id=root-pseudo-class-selector */
+:root {
+  --color-highlight: #003bb9;
+  --color-highlight-bg: #e4eaf3;
+}

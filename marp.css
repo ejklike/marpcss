@@ -7,3 +7,49 @@
   --color-highlight: #003bb9;
   --color-highlight-bg: #e4eaf3;
 }
+
+/* 4:3 slide size */
+section {
+    width: 960px;
+    height: 720px;
+}
+
+/* pagination */
+footer {
+    background-color: #eee;
+    left: 0;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 20px;
+}
+section::after {
+    /* https://github.com/marp-team/marpit/issues/271 */
+    content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    bottom: 0px;
+    font-size: 20px;
+}
+
+/* image alignment  */
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+  }
+  
+img[alt~="left"] {
+    float: left;
+}
+
+img[alt~="right"] {
+    float: right;
+}
+
+img[alt~="top-right"] {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }

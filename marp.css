@@ -1,5 +1,7 @@
 /* @theme mytheme */
 
+@import "default";
+
 section {
   font-size: 20px;
 }

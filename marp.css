@@ -3,8 +3,9 @@
 @import "default";
 
 section {
-  font-size: 20px;
+  font-size: 21px;
 }
+
 
 /* 필요 이상으로 벌어지는 부분 처리 */
 h1, h2, h3, h4, h5, h6 {

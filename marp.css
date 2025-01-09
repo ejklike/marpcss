@@ -1,17 +1,13 @@
 /* @theme mytheme */
 
-@import "default";
-
-/* https://marpit.marp.app/theme-css?id=root-pseudo-class-selector */
-:root {
-  --color-highlight: #003bb9;
-  --color-highlight-bg: #e4eaf3;
+section {
+  font-size: 20px;
 }
 
-/* 4:3 slide size */
-section {
-    width: 960px;
-    height: 720px;
+/* 필요 이상으로 벌어지는 부분 처리 */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* pagination */
@@ -53,3 +49,9 @@ img[alt~="top-right"] {
     top: 30px;
     right: 30px;
   }
+
+img[alt~="bottom-right"] {
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+}
